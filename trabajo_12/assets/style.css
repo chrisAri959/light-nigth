@@ -1,0 +1,33 @@
+
+
+body {
+   margin: 0;
+   padding: 0;  
+}
+
+.main-section[data-theme="dark"]{
+    background-color: #292d3e;
+    color: #d0d0d0;
+    transition: .4s;
+} 
+
+.main-section[data-theme="light"]{
+    background-color: #d0d0d0;; 
+    color:  #292d3e;
+    transition: .4s;
+}
+
+
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-section section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
